@@ -13,7 +13,7 @@ jobs:
      # used to cache dependencies with a timeout
       - name: Install autopoint
         run: |
-          sudo apt-get install autopoint gettext-dev
+          sudo apt-get install autopoint
 
       - name: Get Date
         id: get-date
