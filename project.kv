@@ -1,0 +1,21 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        text: "Stock Symbol:"
+
+    TextInput:
+        id: stock_symbol
+        multiline: False
+
+    Label:
+        text: "Consolidated or Standalone (c/s):"
+
+    TextInput:
+        id: c
+        multiline: False
+
+    Button:
+        text: "Extract and Save"
+        on_press: app.extract_and_save
+
